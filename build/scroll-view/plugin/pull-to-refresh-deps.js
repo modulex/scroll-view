@@ -1,0 +1,1 @@
+modulex.config("requires",{"scroll-view/plugin/pull-to-refresh":["base","util","node","feature"]});

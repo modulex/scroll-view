@@ -1,0 +1,1 @@
+modulex.config("requires",{"scroll-view/base":["anim/timer","component/container","component/extension/content-box","node","feature","util"]});

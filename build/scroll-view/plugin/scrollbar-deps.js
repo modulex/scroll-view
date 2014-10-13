@@ -1,0 +1,1 @@
+modulex.config("requires",{"scroll-view/plugin/scrollbar":["base","ua","util","component/control","event-dom/gesture/basic","event-dom/gesture/pan","feature","xtemplate/runtime"]});

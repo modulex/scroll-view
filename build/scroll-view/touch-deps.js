@@ -1,0 +1,1 @@
+modulex.config("requires",{"scroll-view/touch":["util","anim/timer","event-dom/gesture/basic","event-dom/gesture/pan","component/container","component/extension/content-box","node","feature"]});

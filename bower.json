@@ -1,0 +1,26 @@
+{
+    "name": "modulex-scroll-view",
+    "author": "yiminghe <yiminghe@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/kissyteam/scroll-view.git"
+    },
+    "ignore": [
+        "**/*",
+        "!build/**/*",
+        "!lib/**/*",
+        "!meta/**/*",
+        "!index.js"
+    ],
+    "dependencies": {
+        "modulex": "modulex#master",
+        "modulex-feature": "modulex-feature#master",
+        "modulex-ua": "modulex-ua#master",
+        "modulex-component": "modulex-component#master"
+    },
+    "devDependencies": {
+        "modulex-css": "modulex-css#master",
+        "modulex-url": "modulex-url#master"
+    }
+}
