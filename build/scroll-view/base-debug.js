@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-scroll-view@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:08:10 GMT
+*/
 modulex.add("scroll-view/base", ["anim/timer","component/container","component/extension/content-box","node","feature","util"], function(require, exports, module) {
 var animTimer = require("anim/timer");
 var componentContainer = require("component/container");
@@ -318,6 +323,7 @@ scrollViewBase = function (exports) {
    * @extend KISSY.Component.Container
    */
   exports = Container.extend([ContentBox], methods, {
+    version: '1.0.1',
     ATTRS: {
       focusable: { value: true },
       allowTextSelection: { value: true },

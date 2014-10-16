@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-scroll-view@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:08:10 GMT
+*/
 modulex.add("scroll-view/touch", ["anim/timer","component/container","component/extension/content-box","node","feature","util","event-dom/gesture/basic","event-dom/gesture/pan"], function(require, exports, module) {
 var animTimer = require("anim/timer");
 var componentContainer = require("component/container");
@@ -321,6 +326,7 @@ scrollViewBase = function (exports) {
    * @extend KISSY.Component.Container
    */
   exports = Container.extend([ContentBox], methods, {
+    version: '1.0.1',
     ATTRS: {
       focusable: { value: true },
       allowTextSelection: { value: true },
@@ -675,6 +681,7 @@ scrollViewTouch = function (exports) {
       this.isScrolling = 0;
     }
   }, {
+    version: '1.0.1',
     ATTRS: {
       lockX: { value: true },
       preventDefaultX: { value: true },

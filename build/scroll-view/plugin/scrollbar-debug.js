@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-scroll-view@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:08:10 GMT
+*/
 modulex.add("scroll-view/plugin/scrollbar", ["xtemplate/runtime","ua","util","component/control","event-dom/gesture/basic","event-dom/gesture/pan","feature","base"], function(require, exports, module) {
 var xtemplateRuntime = require("xtemplate/runtime");
 var ua = require("ua");
@@ -16,6 +21,7 @@ scroll-view/plugin/scrollbar/xtpl/tpl
 */
 var scrollViewPluginScrollbarXtplTpl, scrollViewPluginScrollbarXtplTplRender, scrollViewPluginScrollbarControl, scrollViewPluginScrollbar;
 scrollViewPluginScrollbarXtplTpl = function (exports) {
+  /*compiled by xtemplate#3.3.1*/
   var ret = exports = function tpl(undefined) {
     var t;
     var t0;
